@@ -1,3 +1,0 @@
-.gitignore
-analysis*
-step_by_step.txt
