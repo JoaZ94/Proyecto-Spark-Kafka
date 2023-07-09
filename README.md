@@ -34,7 +34,7 @@ docker exec -it kafka1-p bash
 kafka-topics --bootstrap-server localhost:9092 --create --topic DataTopic --replication-factor 3 --partitions 3
 ```
 
-![Creando el tópico DataTopic desde Kafka1-p](images/Creando-Topic-desde-Kafka1-p)
+![Creando el tópico DataTopic desde Kafka1-p](images/Creando-Topic-desde-Kafka1-p.png)
 
 ### 3) Instalando las librerías en Kafka1-p
 
@@ -68,7 +68,7 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.2 /opt/sp
 
 Se generan datos ficticios, se nevían al tópico DataTopic, análsis con Spark y notificación al cliente
 
-![Generando datos, envío al tópico, análisis con Spark y envío de notificación](images/generar-analizar-notificar)
+![Generando datos, envío al tópico, análisis con Spark y envío de notificación](images/generar-analizar-notificar.png)
 
 ### Vídeo
 
